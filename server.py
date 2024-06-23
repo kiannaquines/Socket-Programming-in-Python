@@ -5,7 +5,7 @@ import threading
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='crowd_monitoring.log', level=logging.INFO)
 
-DISCONNECT_MESSAGE = 'stop'
+DISCONNECT_MESSAGE = '0x00'
 
 def handle_incoming_client(connection,address):
     CONNECTED = True
@@ -21,7 +21,7 @@ def handle_incoming_client(connection,address):
             CONNECTED = False
             break
 
-        if data.decode('utf-8') == 'stop':
+        if data.decode('utf-8') == DISCONNECT_MESSAGE:
             CONNECTED = False
             break
 

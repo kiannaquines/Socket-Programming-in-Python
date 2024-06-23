@@ -9,7 +9,7 @@ ADDRESS = (IP,PORT)
 crowd_monitoring_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 crowd_monitoring_socket.connect(ADDRESS)
 
-disconnect_msg = b'stop'
+disconnect_msg = b'0x00'
 
 for i in range(10):
     message = 'Sending {i}: {message}'.format(i=i,message='message from kian').encode('utf-8')

@@ -1,0 +1,17 @@
+INFO:__main__:[NEW ACTIVE CONNECTION] New active connection from ('192.168.226.1', 58135)
+INFO:__main__:[STARTING] Crowd Monitoring Server is starting in ('192.168.226.1', 8090)
+INFO:__main__:[STARTED] Crowd Monitoring Server is listening to ('192.168.226.1', 8090)
+INFO:__main__:[NEW ACTIVE CONNECTION] New active connection from ('192.168.226.1', 58146)
+INFO:__main__:[STARTING] Crowd Monitoring Server is starting in ('192.168.226.1', 8090)
+INFO:__main__:[STARTED] Crowd Monitoring Server is listening to ('192.168.226.1', 8090)
+WARNING:__main__:[INVALID MESSAGE RECIEVED] Invalid message recieved from ('192.168.226.1', 58146)
+INFO:__main__:[CLOSE CONNECTION] Connection from ('192.168.226.1', 58146) has been terminated
+INFO:__main__:[NEW ACTIVE CONNECTION] New active connection from ('192.168.226.1', 58192)
+INFO:__main__:[STARTING] Crowd Monitoring Server is starting in ('192.168.226.1', 8090)
+INFO:__main__:[STARTED] Crowd Monitoring Server is listening to ('192.168.226.1', 8090)
+WARNING:__main__:[INVALID MESSAGE RECIEVED] Invalid message recieved from ('192.168.226.1', 58192)
+INFO:__main__:[CLOSE CONNECTION] Connection from ('192.168.226.1', 58192) has been terminated
+INFO:__main__:[NEW ACTIVE CONNECTION] New active connection from ('192.168.226.1', 58211)
+INFO:__main__:[STARTING] Crowd Monitoring Server is starting in ('192.168.226.1', 8090)
+INFO:__main__:[STARTED] Crowd Monitoring Server is listening to ('192.168.226.1', 8090)
+INFO:__main__:[CLOSE CONNECTION] Connection from ('192.168.226.1', 58211) has been terminated
